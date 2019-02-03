@@ -17,13 +17,18 @@ body {
 }
 
 article {
-
+  width: 50em;
+  padding: 10%;
 }
 
 h1 {
-
+  width: 80%;
 }
 
 img {
+  max-width: 100%;
+}
 
+p {
+  width: 80%;
 }
