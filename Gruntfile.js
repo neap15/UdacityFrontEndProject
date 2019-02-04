@@ -17,9 +17,17 @@ module.exports = function(grunt) {
 
             //Change these:
 
-            width: '100%'',
+            width: '100%',
             suffix: '_large',
             quality: 40
+
+          },{
+
+            //Change these:
+
+            width: '70%',
+            suffix: '_small',
+            quality: 20
 
           }]
         },
@@ -34,7 +42,7 @@ module.exports = function(grunt) {
           cwd: 'images_src/',
           dest: 'images/'
         }]
-      }
+      },
     },
 
     /* Clear out the images directory if it exists */
